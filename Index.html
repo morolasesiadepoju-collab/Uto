@@ -1,0 +1,112 @@
+<section class="hero">
+    <h1>🎉 Happy Birthday, Iseoluwa! 🎂</h1>
+    <h2>To My Number One Fan ❤️</h2>
+    <p>⚠️ WARNING: Proceed only if you're ready to receive excessive compliments.</p>
+
+    <button onclick="nextSection()">Accept the Risk 😌</button>
+</section>
+
+<section id="page2" style="display:none;">
+    <h1>Wait...🤨</h1>
+
+    <p>
+        So today you decided to become older?😂
+        I don't know whether to congratulate you or remind you that you're slowly becoming old.
+    </p>
+
+    <p>
+        But don't worry...
+        You still have premium packaging. 😌✨
+    </p>
+
+    <button onclick="page3()">Continue ➜</button>
+</section>
+
+<section id="page3" style="display:none;">
+    <h1>Confession Time 💌</h1>
+
+    <p>
+        I never regret the day I met you.
+        Out of all the billions of people on Earth, somehow our paths crossed...
+        and I'm genuinely grateful they did.
+    </p>
+
+    <p>
+        Thank you for always being there,
+        for making me laugh,
+        for your kindness,
+        your support,
+        and for proudly carrying the title of...
+    </p>
+
+    <h2>✨ My Number One Fan ✨</h2>
+
+    <button onclick="page4()">One More Thing 👀</button>
+</section>
+
+<section id="page4" style="display:none;">
+    <h1>Things I Should Sue You For 🤨</h1>
+
+    <ul>
+        <li>❤️ Being funny sometimes.</li>
+        <li>🌟 Raising the friendship standards too high.</li>
+        <li>😌 Existing just to outshine everyone else.</li>
+        <li>🎂 Looking this good on your birthday.</li>
+    </ul>
+
+    <button onclick="page5()">Final Surprise 🎁</button>
+</section>
+
+<section id="page5" style="display:none;">
+    <h1>🥹 Happy Birthday, Uto</h1>
+
+    <p>
+        In all seriousness...
+    </p>
+
+    <p>
+        I pray this new chapter of your life is filled with joy,
+        laughter,
+        success,
+        peace,
+        good health,
+        and countless reasons to smile.
+    </p>
+
+    <p>
+        May God bless everything you lay your hands on,
+        protect you,
+        guide you,
+        and make every dream in your heart become reality.
+    </p>
+
+    <p>
+        Never stop being the incredible person you are.
+    </p>
+
+    <h2>Happy Birthday once again! 🎂❤️</h2>
+
+    <h3>— From someone who will never regret meeting you. 🫶🏽</h3>
+</section>
+
+<script>
+function nextSection(){
+document.querySelector(".hero").style.display="none";
+document.getElementById("page2").style.display="block";
+}
+
+function page3(){
+document.getElementById("page2").style.display="none";
+document.getElementById("page3").style.display="block";
+}
+
+function page4(){
+document.getElementById("page3").style.display="none";
+document.getElementById("page4").style.display="block";
+}
+
+function page5(){
+document.getElementById("page4").style.display="none";
+document.getElementById("page5").style.display="block";
+}
+</script>
